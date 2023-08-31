@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+    <title>ALjedrez | AlvaroRaul05</title>
+</head>
+<body> 
+    <div class="contenedor">
+        <h1>AlvaroRaul05 - ALjedrez</h1>
+        <div class="tablero" id="board"></div>
+        <div class="botones">
+            <button class="jugarOtraVez">Jugar de Nuevo</button>
+            <button class="posicionar">Posicionar</button>
+            <button class="girarTablero">Girar Tablero</button>
+        </div>
+        <div id="move-history" class="historialMovimiento"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
