@@ -63,4 +63,5 @@ button:hover {
     height: 100px;
     overflow-y: scroll;
     background-color: #f2f2f2;
+    max-width: 450px
 }
