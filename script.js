@@ -102,6 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
         board.flip();
         makeRandomMove();
         //Cambia el color del usuario dando vuelta el tablero.
-        userColor = usercolor === 'w' ? 'b' : 'w';
+        userColor = userColor === 'w' ? 'b' : 'w';
     });
 });
