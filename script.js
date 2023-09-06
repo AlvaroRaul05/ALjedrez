@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const fen = prompt("Ingresa la notación FEN");
         if (fen !== null) {
             if (game.load(fen)) {
-                board.positon(fen);
+                board.position(fen);
                 moveHistory.textContent = ' ';
                 moveCount = 1;
                 userColor = 'w'
